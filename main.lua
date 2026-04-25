@@ -5,12 +5,12 @@ local MarketplaceService = game:GetService("MarketplaceService")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-if playerGui:FindFirstChild("MahbeecrionicUI") then
-    playerGui.MahbeecrionicUI:Destroy()
+if playerGui:FindFirstChild("MahbeeeruI Troll UI") then
+    playerGui["MahbeeeruI Troll UI"]:Destroy()
 end
 
 local screenGui = Instance.new("ScreenGui")
-screenGui.Name = "MahbeecrionicUI"
+screenGui.Name = "MahbeeeruI Troll UI"
 screenGui.ResetOnSpawn = false
 screenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 screenGui.IgnoreGuiInset = true
@@ -185,7 +185,7 @@ local titleText = Instance.new("TextLabel")
 titleText.Size = UDim2.new(0, 200, 1, 0)
 titleText.Position = UDim2.new(0.5, -100, 0, 0)
 titleText.BackgroundTransparency = 1
-titleText.Text = "MAHBEECRONIC"
+titleText.Text = "MAHBEEERU TROLL UI"
 titleText.TextColor3 = Color3.fromRGB(210, 210, 228)
 titleText.TextSize = 14 * fontSizeScale
 titleText.Font = Enum.Font.GothamBold
@@ -573,7 +573,7 @@ local function makeEmptyLabel()
     el.Name = "EmptyState"
     el.Size = UDim2.new(1, 0, 0, 260)
     el.BackgroundTransparency = 1
-    el.Text = "Waiting for events…\nAll marketplace events will appear here."
+    el.Text = "Waiting for events...\nAll marketplace events will appear here."
     el.TextColor3 = Color3.fromRGB(120, 120, 158)
     el.TextSize = 13 * fontSizeScale
     el.Font = Enum.Font.Gotham
